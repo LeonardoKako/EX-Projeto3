@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #e9f5db;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    background-color: #87986a;
+    max-height: 100px;
+}
+
+header .container h1 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header .container h1,
+header .container nav ul li a {
+    color: #e9f5db;
+}
+
+header .container nav ul li {
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+header .container nav ul li a:hover {
+    color: #e9f5db;
+}
+
+header .container h1:hover {
+    color: #e9f5db;
+}
+
+header .container nav ul li:hover {
+    background-color: #718355;
+}
+
+.logoCoxa {
+    width: 120px;
+}
+
+section {
+    min-height: 90vh;
+    width: 100%;
+}
+
+.sobreDiv-img img {
+    width: 100%;
+}
+
+section h1 {
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #718355;
+    font-style: italic;
+    font-weight: bold;
+    color: #718355;
+}
+
+.nav-produtos button {
+    color: #87986a;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #718355;
+}
+.nav-produtos .nav-link.active {
+    background-color: #718355;
+    color: #e9f5db;
+}
+
+.titulos {
+    font-style: italic;
+    font-weight: bold;
+    color: #718355;
+}
+
+
+
+
+@media screen and (max-width: 640px){
+    header {
+        max-height: 400px;
+    }
+    .logoCoxa {
+        width: 90px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width: 1023px){
+    header {
+        max-height: 400px;
+    }
+
+    .logoCoxa {
+        width: 90px;
+    }
+}

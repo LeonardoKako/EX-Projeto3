@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Leo Coritiba</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-lg-4" id="cabecalho">
+        <div class="container">
+            <div class= "d-flex align-items-center w-lg-100">
+                <img class="logoCoxa" src="./imgs/coritiba-logo.png" alt="Coxa Logo">
+                <h1 class="navbar-brand section-title">Leo Coritiba</h1>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-lg-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Leo Coritiba
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-handbag me-1"></i>
+                            Nossos produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#suporte" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Suporte
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container p-1">
+            <div class="row pt-5">
+                <div class="col-12">
+                    <h1>Sobre nós</h1>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img class="w-100" src="./imgs/couto1.jpg" alt="Foto do espaço interno do restaurante">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img class="w-100" src="./imgs/couto2.jpg" alt="Duas taças de vinho">
+                            </div> 
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img class="w-100" src="./imgs/couto1.jpg" alt="Uma mesa com comida">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-md-2 mt-sm-2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto inventore vel necessitatibus nisi, ut doloremque quod ex dolor repudiandae facilis aspernatur esse aut, molestias adipisci, eligendi eius perferendis dolores. Dicta!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor perspiciatis fugit possimus minus. Corporis nobis culpa corrupti possimus eaque cumque officia repudiandae libero cum quisquam! Labore totam vero dolorum similique.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor perspiciatis fugit possimus minus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Nosso Produtos</h1>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12 pt-2">
+                    <aside>
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#masculino" class="fw-bold text-start nav-link text-colored active botao">Masculino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#feminino" class="fw-bold text-start nav-link text-colored botao">Feminino</button>
+                        </nav>
+                    </aside>
+                </div>
+                <div class="col-lg-10 col-md-12 mt-md-3 mt-sm-3">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="masculino">
+                            <div class="row">
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaX.png" alt="Camisa X">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa X</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaY.png" alt="Camisa Y">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa Y</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaX.png" alt="Camisa X">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa X</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaY.png" alt="Camisa Y">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa Y</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="feminino">
+                            <div class="row">
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaXF.png" alt="Camisa X">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa X</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaYF.png" alt="Camisa Y">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa Y</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaXF.png" alt="Camisa X">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa X</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                                <div class="col-lg-3 card p-3 mt-2 col-md-6 col-sm-12">
+                                    <img class="d-block w-100" src="./imgs/camisaYF.png" alt="Camisa Y">
+                                    <h5 class="text-colored fw-bold mt-2">Camisa Y</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <button class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="suporte" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mt-5">Suporte</h1>
+                </div>
+                <div class="col-lg-7 d-block col-md-7 col-sm-12 mb-5">
+                    <form>
+                        <label class="form-label mt-1" for="nome">Seu nome:</label>
+                        <input class="form-control" type="text"/>
+                        <label class="form-label mt-1" for="email">Seu e-mail:</label>
+                        <input class="form-control" type="text"/>
+                        <label class="form-label mt-1" for="telefone">Seu telefone:</label>
+                        <input class="form-control" type="tel"/>
+                        <label class="form-label mt-1" for="telefone">Sua Dúvida:</label>
+                        <textarea name="msg" class="form-control"></textarea>
+                        <button type="button" class="btn btn-outline-success mt-3 w-100">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-lg-5 d-block col-md-5 col-sm-12 ">
+                    <div class="col-md-12 mb-5 ">
+                        <h2 class="titulos">Redes Sociais</h2>
+                        <div class="d-flex">
+                            <img class="me-2" src="./imgs/icones/facebook.png" alt="" width="40px">
+                            <img class="me-2" src="./imgs/icones/instagram.png" alt="" width="40px">
+                            <img class="me-2" src="./imgs/icones/youtube.png" alt="" width="40px">
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="titulos">Endereço</h2>
+                        <p>Rua Ubaldino do Amaral, 63 - Alto da Glória, Curitiba - PR </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
